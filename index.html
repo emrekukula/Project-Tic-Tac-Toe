@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <form>
+        <div class="form-container">
+            <div>
+                <label for="user1" >user 1:</label>
+                <input id="user1" type="text" name="user1" autofocus >
+            </div>
+            <div>
+                <label for="user2" >user 2:</label>
+                <input id="user2" type="text" name="user2">
+            </div>
+            <div>
+                <button type="submit" class="submit">submit</button>
+            </div>
+        </div>
+    </form>
+    <span class="turn">turn: x</span>
+    <span class="container">
+
+        <div class="h1span">
+            <h1 class="playerDisplay1">(X) Player-1</h1>
+            <div class="countDisplay1">0 wins</div>
+            <h1 class="playerDisplay2">(O) Player-2</h1>
+            <div class=countDisplay2>0 wins</div>
+        </div>
+
+        <button class="restart">RESTART</button>
+
+        <span class="row1">
+            <div class="divs"></div>
+            <div class="divs"></div>
+            <div class="divs"></div>
+        </span>
+        <span class="row2">
+            <div class="divs"></div>
+            <div class="divs"></div>
+            <div class="divs"></div>
+        </span>
+        <span class="row3">
+            <div class="divs"></div>
+            <div class="divs"></div>
+            <div class="divs"></div>
+    </span>
+    <span class="result"></span>
+</body>
+</html>
